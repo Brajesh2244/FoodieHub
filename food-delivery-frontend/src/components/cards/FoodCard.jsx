@@ -72,6 +72,10 @@ const FoodCard = ({ food, onAddToCart, compact = false }) => {
           src={imageUrl || '/images/default-food.jpg'}
           alt={name}
           className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          onError={(e) => {
+            e.target.onerror = null;
+            e.target.src = '/images/default-food.jpg';
+          }}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
         
