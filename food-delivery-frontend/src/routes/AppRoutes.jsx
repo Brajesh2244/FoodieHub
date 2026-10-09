@@ -38,6 +38,7 @@ const OwnerOrders = lazy(() => import('../pages/owner/OwnerOrders'));
 // ---- Error Pages ----
 const NotFoundPage = lazy(() => import('../pages/errors/NotFoundPage'));
 const UnauthorizedPage = lazy(() => import('../pages/errors/UnauthorizedPage'));
+const DemoVideoPage = lazy(() => import('../pages/DemoVideoPage'));
 
 const PageLoader = () => (
   <div className="min-h-[60vh] flex items-center justify-center">
@@ -54,6 +55,7 @@ const AppRoutes = () => {
       <Routes>
         {/* ---- Public Routes ---- */}
         <Route path="/" element={<HomePage />} />
+        <Route path="/demo" element={<DemoVideoPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/restaurants" element={<RestaurantListPage />} />
