@@ -44,7 +44,7 @@ const AdminDashboard = () => {
             Overview
           </h1>
           <p className="text-sm mt-1 font-medium" style={{ color: 'var(--color-text-secondary)' }}>
-            Welcome back to the Velora admin control center.
+            Welcome back to the FoodieHub admin control center.
           </p>
         </div>
 

@@ -49,7 +49,7 @@ const LoginPage = () => {
           <Link to="/" className="inline-flex items-center gap-2 mb-4">
             <span className="text-3xl">🍔</span>
             <span className="text-2xl font-black bg-gradient-to-r from-[var(--color-primary)] to-[var(--color-secondary)] bg-clip-text text-transparent">
-              Velora
+              FoodieHub
             </span>
           </Link>
           <h1 className="text-2xl font-bold" style={{ color: 'var(--color-text-primary)' }}>

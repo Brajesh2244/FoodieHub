@@ -28,7 +28,7 @@ const HeroSection = () => {
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full mb-8 border" style={{ backgroundColor: 'var(--color-surface)', borderColor: 'var(--color-border)', boxShadow: 'var(--shadow-sm)' }}>
               <div className="w-2 h-2 rounded-full bg-[var(--color-primary)] animate-pulse" />
               <span className="text-sm font-semibold tracking-wide" style={{ color: 'var(--color-text-secondary)' }}>
-                Introducing Velora Premium
+                Introducing FoodieHub Premium
               </span>
             </div>
 

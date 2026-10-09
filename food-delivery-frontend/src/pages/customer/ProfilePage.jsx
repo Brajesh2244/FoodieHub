@@ -97,7 +97,7 @@ const ProfilePage = () => {
 
         {/* Logout */}
         <Button variant="danger" fullWidth onClick={logout} className="rounded-2xl py-4 font-bold flex items-center justify-center gap-2">
-          <LogOut className="w-4 h-4" /> Sign Out from Velora
+          <LogOut className="w-4 h-4" /> Sign Out from FoodieHub
         </Button>
       </div>
     </MainLayout>
